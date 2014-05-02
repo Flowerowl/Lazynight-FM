@@ -1,0 +1,17 @@
+<?xml version="1.0"?>  <!--xml版本号-->
+<AutoUpdater>
+<URLAddress URL="http://lazynight.me/Lazynight FM/update"/>  <!--升级文件所在服务器地址-->
+<UpdateInfo>
+	<UpdateTime Date="2012-4-26"/> <!--升级文件的更新日期-->
+	<Version Num="0.14"/> <!--升级文件的版本号-->
+</UpdateInfo>
+<UpdateFileList> <!--升级文件列表-->
+  <UpdateFile FileName="Lazynight FM.exe"/>  <!--需要更新的文件-->
+  <UpdateFile FileName="readme.txt"/>
+  <UpdateFile FileName="AutoUpdater.xml"/>
+</UpdateFileList>
+<RestartApp>
+	<ReStart Allow="Yes"/> <!--允许重新启动程序-->
+	<AppName Name="Lazynight FM.exe"/> <!--启动的程序名-->
+</RestartApp>
+</AutoUpdater>
